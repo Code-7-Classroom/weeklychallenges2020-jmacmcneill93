@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+   
+   
+   
+     
+}
+
+
+
+
+.box1 {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.box2 { 
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    flex-direction: row-reverse;
+}
+.container2{
+    display: flex;
+}
+
+.container3 {
+    display: flex;
+}
+
+.container4 {
+    display: flex;
+}
+
+.container5 {
+    display: flex;
+}
+
+.container6 {
+    display: flex;
+}
+
+.container7 {
+    display: flex;
+
+}
+
+.container8 {
+    display: flex;
+}
+
+
+
+
+

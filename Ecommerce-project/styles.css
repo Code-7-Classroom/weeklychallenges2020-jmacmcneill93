@@ -1,0 +1,63 @@
+
+
+
+body {
+    padding-top: 100px;
+   
+}
+
+
+.carousel-container {
+    width: 100%;
+    margin: auto;
+   border: 5px solid black;
+   overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 720px;
+}
+
+#prevBtn {
+    position: absolute;
+    top: 50%;
+     z-index: 9; 
+    left: 5%;
+    font-size: 30px;
+    background-color: #372c2e;
+    color: #eb8f16;
+    
+}
+
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 9;
+    right: 5%;
+    font-size: 30px;
+    background-color: #372c2e;
+    color: #eb8f16;
+
+}
+
+.about-us {
+    color: #eb8f16;
+
+}
+
+#main-footer {
+    bottom: 0;
+    
+}
+@media (max-width: 800px) {
+
+    .carousel-container {
+        width: 99%;
+        margin: auto;
+       border: 5px solid black;
+       overflow: hidden;
+    }
+   
+}

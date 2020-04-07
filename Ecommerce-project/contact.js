@@ -17,5 +17,5 @@ function validateForm() {
 }   
  window.onload.alert = noalert.validateForm(true);
 
-  validateForm();
+
 

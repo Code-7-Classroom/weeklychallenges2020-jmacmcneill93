@@ -149,7 +149,7 @@ text-decoration: none;
     overflow: auto;
     position: fixed;
    float: left;
-    z-index: 1;
+    z-index: 10;
     font-size: 15px;
     display: flex;
     

@@ -31,7 +31,7 @@
 carouselSlide.addEventListener('transitionend', ()=> {
     if (carouselImages[counter].id === 'lastClone') {
         carouselSlide.style.transition = "none";
-       counter = carouselImages.length - 4;
+       counter = carouselImages.length - 7;
         carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
     }
     if (carouselImages[counter].id === 'firstClone'){

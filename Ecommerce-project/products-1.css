@@ -35,7 +35,7 @@ body {
     background: white;
     justify-content: space-between;
     box-shadow: 5px 5px #eb8f16;
-    display: none;
+     display: none; 
    
     
     
@@ -43,9 +43,9 @@ body {
 }
 
 
-.show {
+/* .show {
     display: block;
-}
+} */
 
  .gallery__item:hover {
      height: 450px;

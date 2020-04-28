@@ -1,0 +1,28 @@
+{
+    "employees": [
+        {
+            "name": "Josh",
+            "id": 1,
+            "salary": 50000,
+            "job-title": "Junior web developer"
+        },
+        {
+            "name": "Leo",
+            "id": 2,
+            "salary": 50000,
+            "job-title": "Junior web developer"
+        },
+        {
+            "name": "David",
+            "id": 3,
+            "salary": 50000,
+            "job-title": "Junior web developer"
+        },
+        {
+            "name": "Kyle",
+            "id": 4,
+            "salary": 50000,
+            "job-title": "Junior web developer"
+        }
+    ]
+}

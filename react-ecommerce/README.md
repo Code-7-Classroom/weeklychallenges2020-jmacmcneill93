@@ -1,3 +1,8 @@
+https://5ed6a5efde98f26a0f976909--focused-jones-49080c.netlify.app/
+
+My page starts out on the contact page which is empty because that portion is not into react yet and I have not finished setting up the react router fully. So you have to click on the home page and then click on the Products page. It will not let you go back to the home page after you clicked on the products unless you hit refresh. I hope this is not too much trouble.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

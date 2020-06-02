@@ -1,0 +1,120 @@
+[
+       {
+        "img": "../images/roshe.jpeg",
+        "alt": "Nike Roshe Shoes",
+        "productName": "Nike Roshe Premium 9",
+        "productCost": "$250.95",
+        "productDescription": "The perfect shoe that keeps style while supplying comfort for your workout routines and great for casual wear too.",
+        "type": "shoes",
+        "price": "price200to300"
+
+
+    },
+    {
+        "img": "../images/running-shoe.jpeg",
+        "alt": "Nike Renew Running Shoes",
+        "productName": "Nike Renew Rival Running Shoes",
+        "productCost": "$98.00",
+        "productDescription": "Our new breathable fabric provides great airflow along with a fantastic arch support allowing you to run further and more comfortably.",
+        "type": "shoes",
+        "price": "price0to100"
+
+    },
+    {
+        "img": "images/kyrie-flytrap.jpg",
+        "alt": "Nike Kyrie Basketball Shoes",
+        "productName": "Nike Kyrie Flytrap II Basketball Shoes",
+        "productCost": "$67.85",
+        "productDescription": "Step on the court with these new durable light-weight basketball shoes designed by Kyrie Irving.",
+        "type": "shoes",
+        "price": "price0to100"
+
+    },
+    {
+        "img": "images/kobe1.jpg",
+        "alt": "Nike Kobe Bryant Basketball Shoes",
+        "productName": "Nike Kobe Mamba Focus Basketball Shoes",
+        "productCost": "$189.00",
+        "productDescription": "With this external heel cage and Zoom Air cushioning provides the perfect necessities for fast movements and great agility.",
+        "type": "shoes",
+        "price": "price100to200"
+
+    },
+    {
+        "img": "images/nikeairmax.jpg",
+        "alt": "Nike Air Max 720 Shoes",
+        "productName": "Nike Air Max 720 Deep Royal Blue/Black",
+        "productCost": "$253.26",
+        "productDescription": "Combining 360 degrees of cushioning and a futuristic design, the new Air Max's deliver a plush look for style-savvy people.",
+        "type": "shoes",
+        "price": "price200to300"
+
+    },
+    {
+        "img": "images/lebron1.png",
+        "alt": "Nike Lebron Basketball Shoes",
+        "productName": "Nike Lebron 17 Basketball Shoes",
+        "productCost": "$210.00",
+        "productDescription": "Harness the King's strength when you slip into the new Lebron 17's with the largest heel Max Air unit to date.",
+        "type": "shoes",
+        "price": "price200to300"
+
+    },
+    {
+        "img": "images/nikekd12.jpeg",
+        "alt": "Nike Kevin Durant Basketball Shoes",
+        "productName": "Nike Zoom KD12 Basketball Shoes",
+        "productCost": "$115.00",
+        "productDescription": "Experience endless energy on the court in the new Nike Zoom KD12's. These offer the cushioning, and lightweight flexibility that you need during the big game.",
+        "type": "shoes",
+        "price": "price100to200"
+    },
+    {
+        "img": "images/hornetshoe.jpg",
+        "alt": "Michael Jordan Basketball Shoes",
+        "productName": "Jordan Mars 270 Basketball Shoes",
+        "productCost": "$110.00",
+        "productDescription": "The Jordan Mars 270 provides a modern-day remix of the elemnts you know and love. Step out in these sneakers for a premium look and vibe.",
+        "type": "shoes",
+        "price": "price100to200"
+    },
+    {
+        "img": "images/RESHOEV8R1.jpg",
+        "alt": "RESHOEVN8R Shoe Cleaner",
+        "productName": "RESHOEVN8R Shoe Cleaner",
+        "productCost": "$29.98",
+        "productDescription": "The ultimate sneaker cleaner that can be used on a variety of other items including furniture, carpet and etc.",
+        "type": "accessories",
+        "price": "price0to100"
+    },
+    {
+        "img": "images/cleankicks2.jpg",
+        "alt": "Clean Kicks Shoe Cleaner",
+        "productName": "Clean Kicks Shoe Cleaner",
+        "productCost": "$14.97",
+        "productDescription": "Use this cleaner for shoes, boots, cleats and etc. This cleaner will bring your shoes back to life and look brand new.",
+        "type": "accessories",
+        "price": "price0to100"
+    },
+    {
+        "img": "images/laces.jpeg",
+        "alt": "Neon Orange Shoelaces",
+        "productName": "Neon Orange Shoelaces",
+        "productCost": "$4.95",
+        "productDescription": "Kick up your shoe styling with these new Neon Orange Black off-white style laces.",
+        "type": "accessories",
+        "price": "price0to100"
+    },
+    {
+        "img": "images/sneaker-balls.jpeg",
+        "alt": "Tye-Dye Colored Sneaker Balls",
+        "productName": "Sneaker Balls Tye-Dye 6 Pack",
+        "productCost": "Price: $9.99",
+        "productDescription": "Keep all of your pairs of sneakers and boots fresh also works well with gym bags and etc.",
+        "type": "accessories",
+        "price": "price0to100"
+    }
+
+
+]
+

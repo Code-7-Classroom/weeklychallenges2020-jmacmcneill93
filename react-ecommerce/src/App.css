@@ -1,0 +1,453 @@
+body {
+  padding-top: 150px;
+  background: url('/images/carbon-fiber.jpg');
+}
+.navbar {
+  background: #372c2e;
+  color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.nav-container {
+  margin-left: 20px;
+  float: right;
+}
+
+.navbar a {
+  color: #f3c955;
+  font-size: 30px;;
+  padding: 2px;
+}
+
+.navbar h1 {
+float: left;
+font-size: 40px;
+}
+
+.navbar ul {
+  list-style: none;
+  float: right;
+  padding: 20px;
+}
+
+.navbar ul li {
+  float: left;
+  padding: 10px;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.current {
+  background: #372c2e;
+  color: #eb8f16;
+  border-top:2px solid #777777;
+  border-right:2px solid #333333;
+  border-bottom:2px solid #444444;
+  border-left:2px solid #777777;
+}
+
+a {
+  color: #eb8f16;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.logo::before {
+  content: "";
+  opacity: .9;
+  background: url('/images/sneakerhead2.jpg') center/cover;
+  display: inline-block;
+  width: 80px;
+  height: 60px;
+  margin-right: 5px;
+  left: 0;
+  padding-bottom: 10px;
+}
+
+.logo {
+  font-size: 25px;
+  color: #eb8f16
+}
+
+.product-head {
+  color: #eb8f16;
+}
+
+.productItemContainer{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.btn1 {
+  font-weight: bold;
+  background-color: #eb8f16;
+  color: #372c2e;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 4px;
+  transition: all 0.5s;
+}
+.btn1:hover{
+  opacity: .3;
+  cursor: pointer;
+}
+
+.myBtnContainer{
+  padding-left: 10px;
+ }
+
+ .productType{
+  background-color: #eb8f16;
+  border-radius: 20px;
+  width: 150px;
+  height: 25px;
+  font-weight: bold;
+ }
+
+ .productType:hover{
+  opacity: .3;
+  cursor: pointer;
+ }
+
+ .productPrice{
+  background-color: #eb8f16;
+  border-radius: 20px;
+  margin-left: 10px;
+  width: 150px;
+  height: 25px;
+  font-weight: bold;
+ }
+
+ .productPrice:hover{
+  opacity: .3;
+  cursor: pointer;
+ }
+
+.gallery__item {
+  text-align: center;
+  height: auto;
+  background: white;
+  box-shadow: 5px 5px #eb8f16;
+  align-items: center;
+  width: 400px;
+  margin: 35px 10px;
+  padding-bottom: 25px;
+  /* display: none; */
+}
+
+.gallery__img {
+  margin-top: 15px;
+  height: 250px;
+  width: 100%;
+}
+
+.gallery__price{
+  font-weight: bold;
+}
+
+.about-us{
+  width: 100%;
+  /* margin-left: 25px; */
+  margin-right: 5px;
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  justify-content: space-between;
+
+}
+.aboutbody{
+  text-align: center;
+  padding: 5px;
+  background: white;
+  height: 500px;
+  width: 25%;
+}
+
+.owner{
+  font-weight: bold;
+  padding: 5px;
+  background: white;
+  width: 25%;
+  height: 500px;
+}
+
+.owner-image {
+  height: 400px;
+  padding-left: 50px;
+}
+
+.owner-info{
+  text-align: center;
+  padding: 5px;
+  background: white;
+  width: 25%;
+  height: 500px;
+}
+
+.weeklyshoe{
+  text-align: center;
+  font-weight: bold;
+  background: white;
+  height: 500px;
+  width: 25%;
+  padding: 5px;
+}
+
+.shoeOfWeek{
+  width: 220px;
+  height: 175px;
+}
+
+/* Slider */
+.carousel-slide {
+  text-align: center;
+  /* margin: auto; */
+  width: 100%;
+  margin-right: 50px;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+ .slides {
+  align-items: center;
+  width: 100%;
+  margin-right: 100px;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index:1;
+}
+
+.slides .slick-prev {
+  left: 25px;
+}
+
+.slides .slick-next {
+  right: 25px;
+}
+
+#main-footer {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  background:  #372c2e;
+  color: #eb8f16;
+  padding: 40px;
+  position: relative;
+  margin: auto;
+}
+
+.footer {
+   display: flex;
+   text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 25%;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+  opacity: .3;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .product-head {margin-top: 50px;}
+  .navbar {
+    background: #372c2e;
+    color: black;
+    overflow: auto;
+    position: fixed;
+    float: left;
+    z-index: 10;
+    font-size: 15px;
+  }
+  .navbar ul li {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .gallery__item {
+      text-align: center;
+      height: auto;
+      width: 50%;
+      border: 2px solid black;
+      background: white;
+      justify-content: space-between;
+  }
+  .gallery__img {
+    margin-top: 15px;
+    height: auto;
+    width: 100%;
+  }
+
+ .btn1 {
+    margin-top: 50px;
+    Background-color: #eb8f16;
+    color: #372c2e;
+    padding: 2px;
+    font-size: 12px;
+  }
+
+  .carousel-slide{
+    margin-top: 50px;
+    width: 800px;
+    float: left;
+  }
+
+  .about-us{
+    align-items: center;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+ }
+  .aboutbody{
+    padding: 5px;
+    background: white;
+    height: 300px;
+    width: 75%;
+}
+
+  .owner{
+    font-weight: bold;
+    padding: 5px;
+    background: white;
+    width: 75%;
+    height: 400px;
+}
+
+  .owner-image {
+    height: 450px;
+    width: 75%;
+}
+
+  .owner-info{
+    padding: 5px;
+    background: white;
+    width: 75%;
+}
+
+  .weeklyshoe{
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    background: white;
+    height: 700px;
+    width: 75%;
+    margin-bottom: 125px;
+
+}
+  .shoeOfWeek{
+    width: 300px;
+    height: 300px;
+}
+
+  #main-footer {
+    display: flex;
+    background:  #372c2e;
+    color: #eb8f16;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+}
+@media (max-width: 400px) {
+  body{
+    padding-bottom: 75px;
+  }
+  .carousel-slide{
+    left: 0;
+}
+  .nav-container{
+    margin-left: 5px;
+}
+
+  .navbar h1{
+      margin-bottom: 0;
+    }
+  .navbar ul {
+    list-style: none;
+    padding-right: 20px;
+  }
+
+  .navbar ul {
+    list-style: none;
+    float: left;
+  }
+
+  .navbar ul li {
+    float: left;
+    padding: 2px;
+  }
+
+  .navbar ul li a {
+    display: inline-block;
+    padding: .5px;
+  }
+
+  .navbar ul li a:hover,
+  .navbar ul li a.current{
+    background: #372c2e;
+    color: #eb8f16;
+    border-top:2px solid #777777;
+    border-right:2px solid #333333;
+    border-bottom:2px solid #444444;
+    border-left:2px solid #777777;
+}
+
+  .logo {
+      font-size: 20px;;
+      color: #eb8f16;
+  }
+
+  .gallery__item{
+    width: 350px;
+  }
+
+    #main-footer {
+      display: flex;
+      flex-direction: column;
+      background:  #372c2e;
+      color: #eb8f16;
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      padding: 5px;
+  }
+
+    .fa {
+      padding: 0px;
+      font-size: 20px;
+      width: 50px;
+      text-decoration: none;
+    }
+
+    .fa:hover {
+      opacity: .3;
+      cursor: pointer;
+
+    }
+
+
+  }

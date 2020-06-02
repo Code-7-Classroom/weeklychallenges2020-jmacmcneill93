@@ -1,0 +1,241 @@
+
+
+body { 
+    width: 100%;
+    background: #684d53; 
+    
+    
+}
+
+#navbar { 
+   
+    background: #372c2e;
+    color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    margin-bottom: 0;
+    font-size: 20px;
+    
+}
+
+.nav-container {
+    margin-left: 45px;
+    
+    
+    
+}
+
+
+
+#navbar a { 
+    color: #f3c955;
+    font-size: 30px;;
+    
+    
+    
+  
+}
+
+#navbar h1{
+  float: left;
+  font-size: 40px;
+  
+    
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+    padding: 20px;
+    
+    
+    
+}
+
+#navbar ul li {
+    float: left;
+    padding: 10px; 
+ 
+  
+}
+
+
+#navbar ul li a:hover, 
+#navbar ul li a.current{
+    background: #372c2e;
+    color: #eb8f16;
+    border-top:2px solid #777777;
+    border-right:2px solid #333333;
+    border-bottom:2px solid #444444;
+    border-left:2px solid #777777;
+    
+
+    
+
+}
+a {
+    color: #eb8f16;
+text-decoration: none;
+
+}
+
+.logo::before {
+    content: "";
+    opacity: .9; 
+    background: url('images/sneakerhead2.jpg') center/cover;
+    display: inline-block;
+    width: 80px;
+    height: 60px;
+    margin-right: 5px;
+    left: 0;
+    padding-bottom: 10px;
+
+}
+ 
+.logo {
+    font-size: 25px;
+    color: #eb8f16
+}
+
+#main-footer {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background:  #372c2e;
+    color: #eb8f16;
+    padding: 40px;
+    position: relative;
+    margin: auto;
+    bottom: 0;
+   
+    
+    
+    
+}
+ .footer {
+     display: flex;
+     /* margin-left: 25px; */
+     text-align: center;
+     /* margin: auto;  */
+ }
+
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+  
+  .fa:hover {
+    opacity: .3;
+    cursor: pointer;
+
+  }
+  
+  @media (max-width: 800px) {
+   
+
+    #navbar { 
+    
+    background: #372c2e;
+    color: black;
+    overflow: auto;
+    position: fixed;
+   float: left;
+    z-index: 1;
+    font-size: 15px;
+    display: flex;
+    
+   
+
+    
+    }
+
+    #navbar h1{
+        margin-bottom: 0;
+        
+          
+      }
+    #navbar ul {
+    list-style: none;
+    
+    
+    
+    }
+
+    #navbar ul {
+    list-style: none;
+    float: left;
+    
+    
+    
+    
+    }
+
+    #navbar ul li {
+    float: left;
+    padding: 2px;
+    
+    
+    }
+
+    #navbar ul li a {
+    display: inline-block;
+    padding: .5px;
+    
+    } 
+ #navbar ul li a:hover, 
+#navbar ul li a.current{
+    background: #372c2e;
+    color: #eb8f16;
+    border-top:2px solid #777777;
+    border-right:2px solid #333333;
+    border-bottom:2px solid #444444;
+    border-left:2px solid #777777; 
+}
+
+    .logo {
+        font-size: 20px;;
+        color: #eb8f16;
+    
+    }
+    #main-footer {
+        display: flex;
+        background:  #372c2e;
+        color: #eb8f16;
+        padding: 20px;
+        width: 100%;
+        
+        
+        
+    }
+    
+    .fa {
+        padding: 20px;
+        font-size: 20px;
+        width: 50px;
+        
+        text-decoration: none;
+      }
+      
+      
+      .fa:hover {
+        opacity: .3;
+        cursor: pointer;
+    
+      }
+    
+
+    }
+
+
+  
+  
+ 

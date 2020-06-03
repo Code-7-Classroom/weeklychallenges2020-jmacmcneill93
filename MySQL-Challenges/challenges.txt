@@ -1,0 +1,125 @@
+Very Easy
+
+DROP DATABASE IF EXISTS myFavoriteCars;
+CREATE DATABASE myFavoriteCars;
+USE myFavoriteCars;
+CREATE TABLE myCars(id INT auto_increment Primary Key, carMake varchar(100), carModel varchar(100), `year` Year);
+INSERT INTO myCars (id, carMake, carModel, `year`)
+VALUES(1, "Ferrari", "250GTO", 1962),
+(2, "Porsche", "Carerra GTS", 2017),
+(3, "Aston Martin", "V8 Vantage", 2016);
+
+INSERT INTO myCars(id, carMake, carModel, `year`)
+VALUES(4, "Toyota", "Corolla", 1990),
+(5, "Ford", "Explorer", 1990);
+SELECT * FROM myCars;
+
+_______________________________________________
+Easy
+
+DROP DATABASE IF EXISTS bookList;
+CREATE DATABASE bookList;
+
+USE bookList;
+CREATE TABLE book (
+id INT AUTO_INCREMENT PRIMARY KEY,
+titleName VARCHAR(255),
+firstName VARCHAR(255),
+lastName VARCHAR(255),
+publishDate DATE
+);
+
+INSERT INTO book(titleName, firstName, lastName, publishDate, id) VALUES 
+('Resident Evil: City of the Dead','S.D.', 'Perry', '1999-05-03' ,1),('The Umbrella Conspiracy','S.D.','Perry', '1999-05-03', 2),
+('Harry Potter and the Philosopher\'s Stone','J.K.','Rowling', '1997-06-26', 3),('The Lord of the Rings','J.R.R','Tolkien', '1954-07-29', 4),
+('Fear and Loathing in Las Vegas','Hunter S.', 'Thompson', '1971-11-25' ,5);
+INSERT INTO book(titleName, firstName, lastName, publishDate, id) VALUES 
+('Resident Evil: Nemesis', 'S.D.','Perry', '2000-11-12', 6),('Resident Evil: Zero Code', 'S.D.', 'Perry', '2004-05-12', 7);
+DELETE from book WHERE publishDate = '1999-05-03';
+SELECT*FROM book;
+_______________________________________________________
+MEDIUM
+
+DROP DATABASE IF EXISTS moviesList;
+CREATE DATABASE moviesList;
+
+USE moviesList;
+CREATE TABLE movies (
+id INT AUTO_INCREMENT PRIMARY KEY,
+titleName VARCHAR(255),
+releaseDate DATE,
+rating INT
+);
+
+INSERT INTO movies(titleName, releaseDate, rating ,id) VALUES 
+('Goodfellas', '1990-09-19', 10, 1),('Casino', '1995-11-25', 9, 2),
+('A Bronx Tale', '1993-09-23', 9, 3),('Scarface', '1983-12-09', 7, 4),
+('The Departed', '2006-08-06', 10, 5),('Pulp Fiction', '1994-10-14', 6, 6),
+('Reservoir Dogs', '1992-10-08', 8, 7),('Kill Bill Volume 1', '2003-10-10', 7, 8),
+('Kill Bill Volume 2', '2004-04-16', 8, 9),('Once Upon a Time in Hollywood', '2019-06-26', 10, 10);
+
+
+SELECT * FROM movies
+WHERE titleName LIKE '%s%' ORDER BY releaseDate ASC;
+
+DROP TABLE movies;
+
+_____________________________________________________________
+HARD
+
+DROP DATABASE IF EXISTS moviesList;
+CREATE DATABASE moviesList;
+
+USE moviesList;
+CREATE TABLE movies (
+id INT AUTO_INCREMENT PRIMARY KEY,
+titleName VARCHAR(255),
+directorsFirst VARCHAR(255),
+directorsLast VARCHAR(255),
+releaseDate DATE,
+rating INT
+);
+
+INSERT INTO movies(titleName, releaseDate, rating, directorsFirst, directorsLast, id) VALUES 
+('Goodfellas', '1990-09-19', 10, 'Martin', 'Scorsese', 1),('Casino', '1995-11-25', 9, 'Martin', 'Scorsese', 2),
+('A Bronx Tale', '1993-09-23', 9, 'Martin', 'Scorsese', 3),('Scarface', '1983-12-09', 7, 'Brian', 'De Palma', 4),
+('The Departed', '2006-08-06', 10, 'Martin', 'Scorsese', 5),('Pulp Fiction', '1994-10-14', 6, 'Quentin', 'Tarantino', 6),
+('Reservoir Dogs', '1992-10-08', 8, 'Quentin', 'Tarantino', 7),('Kill Bill Volume 1', '2003-10-10', 7, 'Quentin', 'Tarantino', 8),
+('Kill Bill Volume 2', '2004-04-16', 8, 'Quentin', 'Tarantino', 9),('Once Upon a Time in Hollywood', '2019-06-26', 10,'Quentin', 'Tarantino', 10);
+
+ALTER TABLE movies ADD COLUMN fullName VARCHAR(100);
+UPDATE movies SET fullName = CONCAT(directorsFirst, ' ', directorsLast);
+SELECT * FROM movies ORDER by fullName;
+
+DELETE FROM movies WHERE REGEXP_LIKE(directorsLast, '[r-z]$');
+
+SELECT * FROM movies LIMIT 3;
+
+DROP TABLE movies;
+___________________________________________________________________
+VERY HARD
+
+CREATE TABLE cars (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    make VARCHAR(20), 
+    model VARCHAR(20), 
+    year YEAR
+);
+INSERT INTO cars (make, model, year)
+VALUES ('Toyota', 'Corolla', 2019), ('Cheverolet', 'Impala', 2010), ('Ford', 'Explorer', 2015);
+ALTER TABLE cars ADD COLUMN prices INT;
+ALTER TABLE cars ADD COLUMN colors VARCHAR(255);
+UPDATE cars SET prices=2000,  colors='Black, Light Gray, light-brown, Dark-brown' WHERE make = 'Toyota';
+UPDATE cars SET prices=8000,  colors='Black , White, Dark Gray' WHERE make = 'Cheverolet';
+UPDATE cars SET prices=17000,  colors='Agate Black Metallic, Blue Metallic, Burgundy Velvet Metallic' WHERE make = 'Ford';
+ALTER TABLE cars ADD COLUMN makemodel VARCHAR(50);
+UPDATE cars SET makemodel = CONCAT(make, ' ', model);
+SELECT make, COUNT(1) FROM cars GROUP BY make;
+DROP TABLE cars;
+
+
+DROP TABLE cars;
+DESCRIBE movies;
+SELECT * FROM movies;
+
+
